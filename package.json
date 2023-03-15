@@ -1,0 +1,31 @@
+{
+  "name": "api-node-skelethon",
+  "version": "1.0.0",
+  "description": "This is an skeleton for an API using Node + Express",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon —- exec babel-node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/theacevedoc/api-node-skelethon.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/theacevedoc/api-node-skelethon/issues"
+  },
+  "homepage": "https://github.com/theacevedoc/api-node-skelethon#readme",
+  "dependencies": {
+    "@babel/core": "7.21.3",
+    "@babel/node": "7.20.7",
+    "@babel/preset-env": "7.20.2",
+    "body-parser": "1.20.2",
+    "cors": "2.8.5",
+    "express": "4.18.2",
+    "nodemon": "2.0.21"
+  }
+}
