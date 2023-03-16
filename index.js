@@ -6,6 +6,7 @@ app.use(bodyParser.json());
 app.get('/',(req,res) => {
     res.send("Welcome to Node Babel")
 })
-app.listen(5000,() => {
-  console.log(`app is listening to port 5000`);
-})
+
+const server = app.listen(9000, function () {
+  console.log(`Listening http://localhost:${server.address().port}`)
+});
