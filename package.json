@@ -6,7 +6,7 @@
   "type": "module",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon —- exec babel-node index.js"
+    "start": "nodemon index.js"
   },
   "repository": {
     "type": "git",
@@ -20,12 +20,12 @@
   },
   "homepage": "https://github.com/theacevedoc/api-node-skelethon#readme",
   "dependencies": {
-    "@babel/core": "7.21.3",
-    "@babel/node": "7.20.7",
-    "@babel/preset-env": "7.20.2",
-    "body-parser": "1.20.2",
-    "cors": "2.8.5",
-    "express": "4.18.2",
-    "nodemon": "2.0.21"
+    "axios": "1.3.4",
+    "express": "4.17.1",
+    "joi": "14.3.1",
+    "morgan": "1.10.0"
+  },
+  "devDependencies": {
+    "nodemon": "2.0.3"
   }
 }
