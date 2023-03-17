@@ -1,0 +1,12 @@
+module.exports = Object.freeze({
+  // responses
+  STATUS_200: 200,
+  STATUS_201: 201,
+  STATUS_400: 400,
+  STATUS_500: 500,
+  CODE_OK: 'OK',
+  CODE_OK_CREATED: 'OK_CREATED',
+  CODE_ZERO_RESULTS: 'ZERO_RESULTS',
+  CODE_ERROR_PARAMS: 'ERROR_PARAMS',
+  CODE_ERROR: 'ERROR',
+});
